@@ -39,14 +39,24 @@
             color: #ff6b6b;
             font-size: 1.5rem;
         }
+
+        /* Estilo responsivo */
+        img {
+            max-width: 100%; /* Para garantir que a imagem não ultrapasse a largura da tela */
+            height: auto;    /* Para manter a proporção da imagem */
+        }
+
+        audio {
+            width: 100%; /* Para o áudio ocupar toda a largura disponível */
+        }
     </style>
 </head>
 <body>
-<h2> Clique no Play </h2>
-<audio controls loop>
-    <source src="fundo.mp3" type="audio/mpeg">
-    Seu navegador não suporta o elemento de áudio.
-</audio>
+    <h2> Clique no Play </h2>
+    <audio controls loop>
+        <source src="fundo.mp3" type="audio/mpeg">
+        Seu navegador não suporta o elemento de áudio.
+    </audio>
     <h1>Feliz 2 Semanas de Namoro!</h1>
     <h2>Aqui está uma pequena página HTML que quis fazer para demonstrar o meu AMOR por VOCÊ.</h2>
     <p>Nem parece, mas já faz duas semanas desde que começamos a namorar e a cada dia que passa eu me apaixono mais ainda por você.<br>
@@ -54,9 +64,9 @@
     </p>
     <h3>Para sermos um casal incrível, não importa a dificuldade.</h3>
     <h2>Esse Coitadinho da Silva</h2>
-    <img src="coitado.png" alt="Coitadinho da Silva" width="357" height="315">
+    <img src="coitado.png" alt="Coitadinho da Silva">
     <h2 style="color: #ff6b6b;">Amaria saber que conheceria, essa Garota Incrível</h2>
-    <img src="meu_xuxu.jpg" alt="Minha Linda" width="640" height="640">
+    <img src="meu_xuxu.jpg" alt="Minha Linda">
     <h1>EU TE AMO MEU BEM! ❤️❤️❤️</h1>
 </body>
 </html>
